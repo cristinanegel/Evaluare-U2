@@ -1,0 +1,23 @@
+<style.css>
+body {
+  background-color: lightblue;
+font-family: Arial, sans-serif;
+}
+header, section {
+  background-color: white;       /* casete albe */
+  margin: 20px;                  /* spațiu exterior */
+  padding: 20px;                 /* spațiu interior */
+  border-radius: 8px;            /* colțuri rotunjite */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* umbră discretă */
+}
+
+img{
+border-radius:10px;
+width:100%;
+max-width:600px;
+}
+#monitorizare img {
+  display: none;          /* ascund imaginile inițial */
+  width: 300px;
+  border-radius: 10px;
+}
